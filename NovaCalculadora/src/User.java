@@ -23,13 +23,13 @@ public class User {
             if (y == 0.0) {
                 System.out.println("Não é possivel fazer a divisão pelo número 0");
             } else {
-                if (opera[0].equals("soma")) {
+                if (opera[0].equals("soma") || opera[0].equals("1")) {
                     soma(x, y);
-                } else if (opera[0].equals("subtracao")) {
+                } else if (opera[0].equals("subtracao") || opera[0].equals("2")) {
                     subtracao(x, y);
-                } else if (opera[0].equals("produto")) {
+                } else if (opera[0].equals("produto") || opera[0].equals("3")) {
                     produto(x, y);
-                } else if (opera[0].equals("divisao")) {
+                } else if (opera[0].equals("divisao") || opera[0].equals("4")) {
                     divisao(x, y);
                 } else {
                     System.out.println("insira ima operção lógica dentre as que foram passadas");
