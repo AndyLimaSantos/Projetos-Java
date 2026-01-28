@@ -20,4 +20,5 @@ public class MegaSena {
             System.out.println(number1);
         }
     }
+
 }
